@@ -1,0 +1,47 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.autoSave": "onFocusChange",
+		"editor.minimap.enabled": false,
+
+		"editor.accessibilitySupport": "off",
+		"accessibility.signals.clear": {
+			"sound": "off",
+			"announcement": "off" 
+		},
+		
+		"files.exclude": {
+			".venv": true,
+			".pytest_cache": true,
+			".mypy_cache": true,
+			".ruff_cache": true,
+			"*/**/.ipynb_checkpoints": true,
+			"*/**/__pycache__": true
+		},
+
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#6bf492",
+			"activityBar.background": "#6bf492",
+			"activityBar.foreground": "#15202b",
+			"activityBar.inactiveForeground": "#15202b99",
+			"activityBarBadge.background": "#926bf4",
+			"activityBarBadge.foreground": "#15202b",
+			"commandCenter.border": "#15202b99",
+			"sash.hoverBorder": "#6bf492",
+			"statusBar.background": "#3cf06f",
+			"statusBar.foreground": "#15202b",
+			"statusBarItem.hoverBackground": "#12e74e",
+			"statusBarItem.remoteBackground": "#3cf06f",
+			"statusBarItem.remoteForeground": "#15202b",
+			"titleBar.activeBackground": "#3cf06f",
+			"titleBar.activeForeground": "#15202b",
+			"titleBar.inactiveBackground": "#3cf06f99",
+			"titleBar.inactiveForeground": "#15202b99"
+		},
+		"peacock.color": "#3cf06f"
+	}
+}
